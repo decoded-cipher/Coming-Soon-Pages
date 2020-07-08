@@ -1,0 +1,246 @@
+.body-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+.image-bg {
+  background: url(../images/bg-0.jpg);
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+}
+
+.image-bg .body-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+}
+
+.coming-area {
+  padding-top: 175px;
+  text-align: center;
+}
+.coming-area h1 {
+  font-size: 30px;
+}
+
+.coming-area #typed {
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 22px;
+  padding-top: 10px;
+  font-size: 48px;
+}
+.coming-area .typed-cursor {
+  color: #fff;
+  font-size: 48px;
+  padding-left: 10px;
+}
+
+.coming-area .type-wrap {
+  margin: 18px 0px;
+}
+
+.coming-area h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 18px;
+}
+.count-num,
+.count-date {
+  display: inline-block;
+}
+.count-num {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+.count-date {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: bottom;
+  margin-left: 6px;
+}
+.count1,
+.count2,
+.count3 {
+  margin-right: 28px;
+}
+.date-line {
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  display: inline-block;
+  margin-right: 28px;
+  border-radius: 4px;
+}
+.coming-area p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 14px;
+  margin-top: 42px;
+}
+
+.coming-area-detail {
+  font-size: 18px;
+}
+
+.coming-area .info-btn {
+  background: rgba(255, 255, 255, 0.1);
+  width: 120px;
+  padding: 8px 0px;
+  margin: 20px 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  font-weight: 600;
+}
+.coming-area .info-btn:hover,
+.coming-area .info-btn:focus {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+.coming-area .notify-btn {
+  padding: 15px 60px;
+  margin: 20px 10px;
+  color: #fff;
+  border: #fff 1px solid;
+  display: inline-block;
+  font-weight: 600;
+}
+.coming-area .notify-btn:hover,
+.coming-area .notify-btn:focus {
+  background: #fff;
+  border: #fff 1px solid;
+  color: #000;
+  font-weight: 600;
+  transition: background 0.6s ease-in;
+}
+
+.social-icons {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.social-icons a i {
+  color: #fff;
+  text-align: center;
+}
+.social-icons a {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 0px;
+  line-height: 20px;
+  margin: 10px 10px;
+  transition: background 0.6s ease-in;
+}
+.social-icons a:hover,
+.social-icons a:focus {
+  background: #fff;
+  border-color: transparent;
+}
+.social-icons a:hover i,
+.social-icons a:focus i {
+  color: #000;
+}
+
+#notify-bar {
+  background: transparent !important;
+}
+.notify-body {
+  width: 100%;
+  position: relative;
+}
+.notify-content {
+  width: 40%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 8px;
+  margin-top: 60px;
+}
+#notify-bar .modal-content {
+  border: 0px;
+  width: 100%;
+}
+#notify-bar .modal-content h6,
+#notify-bar .modal-content p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#notify-bar #mc-email {
+  width: 79%;
+  display: block;
+  height: 45px;
+  padding-left: 10px;
+  border: 1px solid #333;
+  margin: 0 auto;
+}
+#notify-bar label {
+  width: 79%;
+  margin: 0 auto;
+  display: block;
+  padding: 18px 0px;
+  text-align: center;
+}
+#notify-bar .error {
+  color: #f00;
+}
+#notify-bar .valid {
+  color: #000;
+}
+#notify-bar form {
+  margin: 10px 0px;
+}
+#notify-submit {
+  padding: 15px 60px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 16px;
+  cursor: pointer;
+  margin-top: 0px !important;
+  outline: 0px;
+
+  background: #fff !important;
+  color: #000;
+  border: 1px solid #000;
+}
+
+#notify-submit:hover,
+#notify-submit:focus {
+  background: #000 !important;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: background 0.6s ease-in;
+}
+
+.notify-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+#notify-bar .modal-content {
+  border: none;
+  position: initial;
+}
+#notify-bar .close-animatedModal {
+  padding: 14px;
+  position: relative;
+  cursor: pointer;
+}
+#notify-bar .close-animatedModal i {
+  position: absolute;
+  right: 28px;
+  font-size: 24px !important;
+}
